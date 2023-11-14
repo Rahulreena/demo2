@@ -1,4 +1,6 @@
 
+
+
 html,body{
     height: 100%;
 }
@@ -174,9 +176,14 @@ font-weight: 400;
 }
 
 .UserHead .voiceIcon{
-  width: 25px;
-  height: 25px;
-  object-fit: contain;
+  font-size: 23px;
+  color: grey;
+  cursor: pointer;
+}
+.pauseIcon{
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
 }
 .chatSection{
   padding-top: 80px;
@@ -225,7 +232,20 @@ font-weight: 400;
   font-size: 14px;
 }
 
-
+.send_message_icon{
+  transform: rotate(45deg);
+  font-size: 22px;
+  color: rgba(109, 142, 61, 0.50);
+  cursor: pointer;
+}
+.deleteIcon{
+  font-size: 20px;
+  color: grey;
+}
+.Voicetimer{
+  font-size: 15px;
+  font-weight: 500;
+}
 /* //responsive */
 
 @media (max-width:990px){

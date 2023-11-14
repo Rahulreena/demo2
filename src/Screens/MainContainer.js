@@ -95,7 +95,7 @@ function MainContainer() {
                         </div>
                     </div>
                     <div className=''>
-                        <ul>
+                        <ul className='ps-0'>
                             <li className="d-flex justify-content-end ms-3">
                                 <div>
                                     <div className="chatBox ">
@@ -107,7 +107,7 @@ function MainContainer() {
                             <li className="d-flex  ms-3 mb-1">
                                 <div>
                                     <div className="chatBox2 ">
-                                        <h3 className=" mb-0 text-end">hi,Rahul....hi,Rahul.hi,Rahul.hi,Rahul.hi,Rahul.hi,Rahul.hi,Rahul.hi,Rahul.hi,Rahul.hi,</h3>
+                                        <h3 className=" mb-0 text-end">hi,Rahul....hi,Rahu,</h3>
                                     </div>
                                     <p className="messge pt-1 font_8 font_400 mb-0 text-start">1 minute ago</p>
                                 </div>
@@ -148,11 +148,21 @@ function MainContainer() {
                     </div>
                 </div>
             </div>
-            <div className='MessageSendSection px-4 px-lg-4  d-flex justify-content-between align-items-center w-100 px-2 py-3 position-absolute bottom-0'>
-                <div className='pe-3 pe-lg-4 w-100'>
-                    <input className='text-black px-3 w-100 bg-white' placeholder='Say Something to Santa...' type="text" />
+            <div className='MessageSendSection px-4 px-lg-4  d-flex justify-content-end align-items-center w-100 px-2 py-3 position-absolute bottom-0'>
+                <div className='pe-3 pe-lg-3 w-100'>
+                    <input className='text-black px-3 w-100  bg-white' placeholder='Say Something to Santa...' type="text" />
+                    <div>
+                    <div className='d-none'>
+                    <i class="fas fa-trash deleteIcon me-2"></i>   
+                        <span className='Voicetimer'>0.01</span>
+                    </div>
+                    </div>
                 </div>
-                <img className='voiceIcon' src={img5} alt="" />
+                <div className='d-flex align-items-center'>
+                    <i class="fas fa-microphone voiceIcon"></i>
+                    <i class="far fa-pause-circle pauseIcon d-none"></i>
+                    <i className='d-none fas fa-location-arrow send_message_icon ms-2'></i>
+                </div>
             </div>
         </div>
     </div>
