@@ -29,7 +29,7 @@ function MainContainer() {
                         </svg>
                     </div>
                 </div>
-                <div className='d-flex mt-3 justify-content-center'>
+                <div className='d-flex mt-1 mt-md-3 justify-content-center'>
                     <img src={img1} className='d-none UserView  rounded-pill' alt="" />
                 
                 <video src={video} autoPlay loop muted playsInline className='rounded-pill UserView'  >
@@ -39,7 +39,7 @@ function MainContainer() {
                     <h5 className='text-center mt-2'>Remaining time</h5>
                     <h6 className='text-center px-4 py-2 bg-white '>12:37</h6>
                 </div>
-                <div className='lockScreen  px-2 py-4 bg-white '>
+                <div className='lockScreen  px-2 py-3 py-md-4 bg-white '>
                     <h2 className='text-center mb-1'>Lock the screen for your child</h2>
                     <h4 className='text-center'>Use the code to unlock</h4>
                     <div className='d-flex justify-content-center gap-2 mt-3'>
